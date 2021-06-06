@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 说明：节点来自Biteb.me，免费分享给大家使用。, server: 127.0.0.1, port: 88, type: ss, cipher: xchacha20, password: dfs}
+  - {name: 说明：节点来自Biteb.me, server: 127.0.0.1, port: 88, type: ss, cipher: xchacha20, password: dfs}
   - {name: 🇨🇳 台湾 TW x1.0 01中转, server: hkaz1.biteb.club, port: 51011, type: vmess, uuid: 59494ea9-5fa1-3643-ae37-87820087ae50, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkaz1.biteb.club}}
   - {name: 🇨🇳 台湾 TW x1.0 02中转, server: hkaz1.biteb.club, port: 51014, type: vmess, uuid: 59494ea9-5fa1-3643-ae37-87820087ae50, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkaz1.biteb.club}}
   - {name: 🇸🇬 新加坡 SG x1.0 01 80端口, server: sgaws1.biteb.club, port: 80, type: vmess, uuid: 59494ea9-5fa1-3643-ae37-87820087ae50, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: sgaws1.biteb.club}}
@@ -31,7 +31,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 说明：节点来自Biteb.me，免费分享给大家使用
+      - 说明：节点来自Biteb.me
       - 🇨🇳 台湾 TW x1.0 01中转
       - 🇨🇳 台湾 TW x1.0 02中转
       - 🇸🇬 新加坡 SG x1.0 01 80端口
