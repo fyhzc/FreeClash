@@ -15,7 +15,7 @@ proxies:
   - {name: 🇭🇰 香港(2T用完就虚了)解锁美区流媒体, server: 183.236.97.185, port: 30237, type: vmess, uuid: 884688eb-d63b-4186-961d-f3b5deac45de, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 183.236.97.185}}
   - {name: 🇨🇳 台湾(原生)支持下载bt/pt, server: tw3.mooncloud.top, port: 8080, type: vmess, uuid: 884688eb-d63b-4186-961d-f3b5deac45de, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: tw3.mooncloud.top}}
   - {name: 🇸🇬 不更新订阅，你怎么获取新节点？, server: 8.8.8.8, port: 1, type: vmess, uuid: 884688eb-d63b-4186-961d-f3b5deac45de, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8.8.8.8}}
-  - {name: 🇺🇲 TG群组:@Tgshareuser, server: 8.8.8.8, port: 8, type: vmess, uuid: 884688eb-d63b-4186-961d-f3b5deac45de, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8.8.8.8}}
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -32,7 +32,6 @@ proxy-groups:
       - 🇭🇰 香港(2T用完就虚了)解锁美区流媒体
       - 🇨🇳 台湾(原生)支持下载bt/pt
       - 🇸🇬 不更新订阅，你怎么获取新节点？
-      - 🇺🇲 TG群组:@Tgshareuser
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -48,7 +47,6 @@ proxy-groups:
       - 🇭🇰 香港(2T用完就虚了)解锁美区流媒体
       - 🇨🇳 台湾(原生)支持下载bt/pt
       - 🇸🇬 不更新订阅，你怎么获取新节点？
-      - 🇺🇲 TG群组:@Tgshareuser
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -64,7 +62,6 @@ proxy-groups:
       - 🇭🇰 香港(2T用完就虚了)解锁美区流媒体
       - 🇨🇳 台湾(原生)支持下载bt/pt
       - 🇸🇬 不更新订阅，你怎么获取新节点？
-      - 🇺🇲 TG群组:@Tgshareuser
   - name: 📲 电报信息
     type: select
     proxies:
@@ -79,7 +76,6 @@ proxy-groups:
       - 🇭🇰 香港(2T用完就虚了)解锁美区流媒体
       - 🇨🇳 台湾(原生)支持下载bt/pt
       - 🇸🇬 不更新订阅，你怎么获取新节点？
-      - 🇺🇲 TG群组:@Tgshareuser
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -94,7 +90,6 @@ proxy-groups:
       - 🇭🇰 香港(2T用完就虚了)解锁美区流媒体
       - 🇨🇳 台湾(原生)支持下载bt/pt
       - 🇸🇬 不更新订阅，你怎么获取新节点？
-      - 🇺🇲 TG群组:@Tgshareuser
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -109,7 +104,6 @@ proxy-groups:
       - 🇭🇰 香港(2T用完就虚了)解锁美区流媒体
       - 🇨🇳 台湾(原生)支持下载bt/pt
       - 🇸🇬 不更新订阅，你怎么获取新节点？
-      - 🇺🇲 TG群组:@Tgshareuser
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -125,7 +119,6 @@ proxy-groups:
       - 🇭🇰 香港(2T用完就虚了)解锁美区流媒体
       - 🇨🇳 台湾(原生)支持下载bt/pt
       - 🇸🇬 不更新订阅，你怎么获取新节点？
-      - 🇺🇲 TG群组:@Tgshareuser
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -157,7 +150,6 @@ proxy-groups:
       - 🇭🇰 香港(2T用完就虚了)解锁美区流媒体
       - 🇨🇳 台湾(原生)支持下载bt/pt
       - 🇸🇬 不更新订阅，你怎么获取新节点？
-      - 🇺🇲 TG群组:@Tgshareuser
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
