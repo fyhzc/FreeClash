@@ -223,7 +223,12 @@ proxies:
     ws-path: /index
     ws-headers:
       Host: 75.2.87.254
-- {name: 🇨🇳 台湾TW 非Biteb.me, server: 138.199.42.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇹🇼 台湾TW 非Biteb.me
+  server: 138.199.42.163
+  port: 33992
+  type: ss
+  cipher: aes-256-gcm
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
 proxy-groups:
   - name: 🔰国外流量
     proxies:
