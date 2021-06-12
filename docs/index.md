@@ -1,5 +1,7 @@
 # FreeClash
-本仓库节点均为付费/白嫖机场节点，随时可能会到期，请谨慎使用，我们可能不会在第一时间发现问题，建议提交Issues给我们反馈
+本仓库节点均为付费/白嫖机场节点且只提供Clash，随时可能会到期，请谨慎使用，我们可能不会在第一时间发现问题，建议提交Issues给我们反馈
+
+本仓库Clash订阅：https://cdn.jsdelivr.net/gh/FreeClash/FreeClash@main/node.yml
 # 合作
 本仓库合作白嫖机场：Fly.xxl123.fun
 
